@@ -551,7 +551,7 @@ GameObject:
   - component: {fileID: 900241073}
   - component: {fileID: 900241072}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: PlayAgain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -589,6 +589,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cab3e0ec028d894fbc2fbd50d5f18ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playButton: {fileID: 0}
+  selectorButton: {fileID: 0}
+  level1Button: {fileID: 0}
+  level2Button: {fileID: 0}
+  backButton: {fileID: 0}
 --- !u!114 &900241073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,7 +794,7 @@ GameObject:
   - component: {fileID: 1420969082}
   - component: {fileID: 1420969081}
   m_Layer: 5
-  m_Name: Button (Legacy) (1)
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -812,8 +817,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 75}
-  m_SizeDelta: {x: 252.387, y: 30}
+  m_AnchoredPosition: {x: 0.000045776, y: 68.4}
+  m_SizeDelta: {x: 142.6647, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1420969081
 MonoBehaviour:
@@ -827,6 +832,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cab3e0ec028d894fbc2fbd50d5f18ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playButton: {fileID: 0}
+  selectorButton: {fileID: 0}
+  level1Button: {fileID: 0}
+  level2Button: {fileID: 0}
+  backButton: {fileID: 0}
 --- !u!114 &1420969082
 MonoBehaviour:
   m_ObjectHideFlags: 0

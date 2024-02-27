@@ -16,7 +16,6 @@ public class itemCollector : MonoBehaviour
             bananasCollected++;
             collectibleSound.Play();
             bananaText.text = "Bananas: " + bananasCollected;
-            Debug.Log("Bananas: " + bananasCollected);
         }
     }
 }
